@@ -35,7 +35,7 @@
         "description": "Diagram STRIDE ini menggambarkan alur proses login dan akses profil mahasiswa melalui Browser, Backend API, dan Database. Diagram menunjukkan pertukaran data, batas kepercayaan (Trust Boundary), serta potensi ancaman keamanan pada setiap komponen dan aliran data menggunakan metode STRIDE."
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Gian Maxmillian Firdaus",
     "threatTop": 0
   }
