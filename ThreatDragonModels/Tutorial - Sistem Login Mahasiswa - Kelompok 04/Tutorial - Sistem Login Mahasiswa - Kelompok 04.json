@@ -48,8 +48,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "d8d77275-2310-48de-b1d6-d59349feee2e",
             "zIndex": -1,
+            "id": "d8d77275-2310-48de-b1d6-d59349feee2e",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary: Sistem Internal Kampus",
@@ -84,6 +84,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -167,7 +168,6 @@
               ]
             },
             "id": "51024853-3de1-498f-93b2-9551ec7a1fa1",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Mahasiswa \n(Browser)",
@@ -204,6 +204,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -287,7 +288,6 @@
               ]
             },
             "id": "888e7fd9-d6c2-4512-a3aa-619a12dd43f7",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Database\nAkun dan Profile",
@@ -325,6 +325,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -408,7 +409,6 @@
               ]
             },
             "id": "58c5ee79-d359-4e51-be65-a666a3bcc78f",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Backend API",
@@ -423,6 +423,58 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kredensial dan\npermintaan profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Kredensial dan\npermintaan profil"
+            ],
+            "id": "73481d4d-2ace-428e-9881-82a398338f4d",
+            "source": {
+              "x": -790,
+              "y": 450
+            },
+            "target": {
+              "x": -610,
+              "y": 450
+            },
+            "vertices": [
+              {
+                "x": -690,
+                "y": 400
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -460,21 +512,15 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "9983b061-a3b6-43db-8e75-932fb9e2ba96",
+            "id": "639f24d5-3d32-4d31-ac60-51baf6e45abe",
             "source": {
-              "x": -600,
+              "x": -610,
               "y": 480
             },
             "target": {
-              "x": -790,
-              "y": 480
-            },
-            "vertices": [
-              {
-                "x": -680,
-                "y": 520
-              }
-            ]
+              "x": -820,
+              "y": 540
+            }
           }
         ],
         "description": "Diagram STRIDE ini menggambarkan alur proses login dan akses profil mahasiswa melalui Browser, Backend API, dan Database. Diagram menunjukkan pertukaran data, batas kepercayaan (Trust Boundary), serta potensi ancaman keamanan pada setiap komponen dan aliran data menggunakan metode STRIDE."
