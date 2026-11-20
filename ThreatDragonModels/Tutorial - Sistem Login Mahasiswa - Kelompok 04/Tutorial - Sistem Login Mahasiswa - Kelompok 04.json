@@ -23,8 +23,19 @@
         "name": "Annafi Rafy Kurnia Nur Hakim - 103012400352"
       }
     ],
-    "diagrams": [],
-    "diagramTop": 0,
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Login dan Profile Mahasiswa",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Diagram STRIDE ini menggambarkan alur proses login dan akses profil mahasiswa melalui Browser, Backend API, dan Database. Diagram menunjukkan pertukaran data, batas kepercayaan (Trust Boundary), serta potensi ancaman keamanan pada setiap komponen dan aliran data menggunakan metode STRIDE."
+      }
+    ],
+    "diagramTop": 1,
     "reviewer": "Gian Maxmillian Firdaus",
     "threatTop": 0
   }
