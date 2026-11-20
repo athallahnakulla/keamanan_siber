@@ -1,0 +1,31 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-11-21",
+  "summary": {
+    "title": "Tutorial - Sistem Login Mahasiswa - Kelompok 04",
+    "owner": "Kelompok FRAN",
+    "description": "Threat modeling ini dilakukan untuk menganalisis potensi ancaman keamanan pada sistem login dan profil mahasiswa berbasis web menggunakan metode STRIDE. Sistem melibatkan Mahasiswa (Browser), Backend API, dan Database Akun dan Profil. Analisis bertujuan mengidentifikasi ancaman serta menentukan risiko dan mitigasi untuk menjaga keamanan data mahasiswa.\n\nDiskusi Langkah 10.4:\n\nD1. Ancaman tidak hanya terjadi pada Backend API, tetapi juga pada komponen dan aliran data lainnya.\n\nD2. Data Flow perlu dianalisis karena data dapat disadap, dimanipulasi, atau diakses pihak tidak berhak saat dikirim.\n\nD3. Ancaman database berkaitan dengan data yang tersimpan, sedangkan ancaman komunikasi berkaitan dengan proses pertukaran data antara backend dan database.\n\nD4. Tidak semua elemen memiliki ancaman yang relevan, tetapi bukan berarti elemen tersebut sepenuhnya aman.\n\nD5. Mitigasi tidak otomatis membuat ancaman berstatus Mitigated karena harus diterapkan dan diverifikasi terlebih dahulu.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Nakulla Athallah Hendriyanto - 103012400365"
+      },
+      {
+        "name": "Nestly Reina So'an - 103012400291"
+      },
+      {
+        "name": "Felly Adhiansyah Putra Nababan - 103012400129"
+      },
+      {
+        "name": "Annafi Rafy Kurnia Nur Hakim - 103012400352"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Gian Maxmillian Firdaus",
+    "threatTop": 0
+  }
+}
