@@ -535,6 +535,110 @@
                 "y": 310
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query akun\ndan profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query akun\ndan profil"
+            ],
+            "id": "8787afa4-af8e-4712-a4cc-380d22a974d1",
+            "source": {
+              "x": -1070,
+              "y": 930
+            },
+            "target": {
+              "x": -870,
+              "y": 930
+            },
+            "vertices": [
+              {
+                "x": -970,
+                "y": 870
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Hasil query akun\ndan profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Hasil query akun\ndan profil"
+            ],
+            "id": "24af5dbc-bb78-46ce-bd09-ab5e60541477",
+            "source": {
+              "x": -870,
+              "y": 940
+            },
+            "target": {
+              "x": -1080,
+              "y": 940
+            },
+            "vertices": [
+              {
+                "x": -970,
+                "y": 990
+              }
+            ]
           }
         ],
         "description": "Diagram STRIDE ini menggambarkan alur proses login dan akses profil mahasiswa melalui Browser, Backend API, dan Database. Diagram menunjukkan pertukaran data, batas kepercayaan (Trust Boundary), serta potensi ancaman keamanan pada setiap komponen dan aliran data menggunakan metode STRIDE."
