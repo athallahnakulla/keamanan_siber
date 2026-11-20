@@ -463,16 +463,20 @@
             "id": "73481d4d-2ace-428e-9881-82a398338f4d",
             "source": {
               "x": -790,
-              "y": 450
+              "y": 460
             },
             "target": {
               "x": -610,
-              "y": 450
+              "y": 460
             },
             "vertices": [
               {
-                "x": -690,
-                "y": 400
+                "x": -710,
+                "y": 410
+              },
+              {
+                "x": -680,
+                "y": 410
               }
             ]
           },
@@ -496,7 +500,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respon login\ndan data profil",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -510,17 +514,27 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Respon login\ndan data profil"
             ],
             "id": "639f24d5-3d32-4d31-ac60-51baf6e45abe",
             "source": {
               "x": -610,
-              "y": 480
+              "y": 470
             },
             "target": {
-              "x": -820,
-              "y": 540
-            }
+              "x": -790,
+              "y": 480
+            },
+            "vertices": [
+              {
+                "x": -660,
+                "y": 510
+              },
+              {
+                "x": -740,
+                "y": 510
+              }
+            ]
           }
         ],
         "description": "Diagram STRIDE ini menggambarkan alur proses login dan akses profil mahasiswa melalui Browser, Backend API, dan Database. Diagram menunjukkan pertukaran data, batas kepercayaan (Trust Boundary), serta potensi ancaman keamanan pada setiap komponen dan aliran data menggunakan metode STRIDE."
